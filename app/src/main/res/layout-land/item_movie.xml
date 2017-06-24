@@ -20,6 +20,7 @@
     <TextView
         android:textColor="#FFFAF0"
         android:id="@+id/tvTitle"
+        android:padding="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Movie Title"
@@ -30,10 +31,12 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
+        android:textColor="#FFFAF0"
         android:id="@+id/tvOverview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:layout_margin="5dp"
         android:layout_below="@+id/tvTitle"
         android:layout_toRightOf="@+id/ivBackdropImage"
         android:layout_alignParentRight="true"
